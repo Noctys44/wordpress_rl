@@ -6,4 +6,4 @@
 <p align="center"> Ce thème a pour but d'être utilisé dans des contextes de Jeux Vidéos/Animes/Manga/Technologies, il est entièrement gratuit <p>
 
 <h2 align="center">Technologies utilisées </h2>
-<p align="center"> <img width="100px" height="auto" src="img/php.png"> et <img width="100px" height="auto" src="img/wordpress.png"></p>
+<p align="center"> <img width="100px" height="auto" src="img/php.png">  <img width="100px" height="auto" src="img/wordpress.png"></p>
