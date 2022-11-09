@@ -11,10 +11,10 @@
     <body <?php body_class(); ?>>
   <header class="header">
     <ul>
-      <li><a href="">Blog</a></li>
+      <li><a href="http://localhost/wordpress/blog/">Blog</a></li>
     <a href="<?php echo home_url( '/' ); ?>">
       <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
     </a>  
-      <li><a href="">Contact</a></li>
+      <li><a href="http://localhost/wordpress/contact/">Contact</a></li>
     </ul>
   </header>

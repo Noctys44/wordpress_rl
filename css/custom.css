@@ -22,3 +22,9 @@ a {
     color: white;
     font-size: 30px;
 }
+
+h1 {
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+}
