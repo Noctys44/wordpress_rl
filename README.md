@@ -7,4 +7,4 @@
 <p align="center"> Use for free <p>
 
 <h2 align="center">Technologies </h2>
-<p align="center"> <img width="100px" height="auto" src="img/php.png">  <img width="100px" height="auto" src="img/wordpress.png"></p>
+<p align="center"><img width="100px" height="auto" src="css-3/php.png"> <img width="100px" height="auto" src="img/php.png">  <img width="100px" height="auto" src="img/wordpress.png"></p>
