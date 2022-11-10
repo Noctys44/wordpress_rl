@@ -7,7 +7,7 @@
 
 .header {
     width: 100vw;
-    background-color: rgb(47, 42, 48);
+    background-color: rgb(49, 49, 49);
     display: flex;
     justify-content: center;
 }
@@ -28,4 +28,16 @@ h1 {
     font-size: 40px;
     margin: 20px;
     text-align: center;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

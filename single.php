@@ -20,6 +20,30 @@
         <?php the_content(); ?>
       </div>
     </article>
+    <?php if ( has_post_thumbnail() ): ?>
+	<div class="post__thumbnail">
+    	<?php the_post_thumbnail(); ?>
+	</div>
+<?php endif; ?>
+<?php endwhile; endif; ?>
+<?php the_content(); ?>
+<p>
+    <strong>Avis :</strong> 
+    <?php echo get_post_meta( get_the_ID(), 'avis', true ); ?>
+</p>
 
-  <?php endwhile; endif; ?>
+<p>
+    <strong>Note :</strong>
+    <?php echo get_post_meta( get_the_ID(), 'note', true ); ?> / 10
+</p>
+
+<div class="plus-moins">
+    <div class="plus">
+        <?php echo get_post_meta( get_the_ID(), 'plus', true ); ?>
+    </div>
+    <div class="plus">
+        <?php echo get_post_meta( get_the_ID(), 'moins', true ); ?>
+    </div>
+</div>
+
 <?php get_footer(); ?>
